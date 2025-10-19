@@ -33,6 +33,20 @@ int main(){
     } while (contadorRainha <= casasRainha);
 
 
+    //Movimento do Cavalo
+
+    int movimentoCavalo = 1; //Flag para contolar o movimento em 'L'
+    printf("Movimento do Cavalo:\n");
+
+    while (movimentoCavalo--)
+    {
+        for (int i = 0; i < 2; i++){
+            printf("Baixo,\t");
+        }
+        printf("Esquerda\n");
+    }
+
+
     return 0;
 
 
